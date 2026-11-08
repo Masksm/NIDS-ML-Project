@@ -1,0 +1,20 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# All datasets
+data/
+
+# Trained models
+models/*.joblib
+models/*.pkl
+models/*.keras
+models/*.h5
+
+# Temporary files
+*.db
+*.sqlite
+*.log
+.DS_Store
